@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A horror house party with games, music, movies, and questionable decisions." />
+    <title>After Dark — House Party</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Eater&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="noise"></div>
+    <header class="nav">
+      <a class="brand" href="#top" aria-label="After Dark home">AFTER <span>DARK</span></a>
+      <a class="nav-rsvp" href="#rsvp">RSVP <span>↗</span></a>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-glow"></div>
+        <p class="eyebrow">ONE NIGHT ONLY · 31 OCT · 8PM TILL LATE</p>
+        <h1>THE HOUSE<br /><em>IS</em> ALIVE.</h1>
+        <p class="hero-copy">Come for the party. Stay because the front door stopped opening.</p>
+        <a class="button button-primary" href="#rsvp">Claim your invite <span>→</span></a>
+        <div class="hero-bottom">
+          <p>THE BLACKWOOD HOUSE<br />13 NIGHTSHADE LANE</p>
+          <div class="scroll-mark"><span></span> SCROLL TO ENTER</div>
+          <p>NO COVER. NO CURFEW.<br />NO EXCUSES.</p>
+        </div>
+        <div class="moon" aria-hidden="true"></div>
+        <div class="house" aria-hidden="true"><span class="roof"></span><span class="chimney"></span><span class="window one"></span><span class="window two"></span><span class="door"></span></div>
+      </section>
+
+      <section class="marquee" aria-label="Party highlights">
+        <div>GAMES · MUSIC · MOVIES · MAYHEM · GAMES · MUSIC · MOVIES · MAYHEM ·</div>
+      </section>
+
+      <section class="experience">
+        <div class="section-intro">
+          <p class="eyebrow">WHAT'S LURKING INSIDE</p>
+          <h2>DON'T JUST<br />COME <em>OVER.</em></h2>
+          <p>Every room has a different kind of trouble waiting for you.</p>
+        </div>
+        <div class="cards">
+          <article class="card games-card">
+            <span class="number">01</span><span class="card-icon">♜</span>
+            <h3>Play<br />to survive</h3>
+            <p>Board games, dares, and a prize for the last one standing.</p>
+            <span class="card-tag">THE GAME ROOM</span>
+          </article>
+          <article class="card music-card">
+            <span class="number">02</span><span class="card-icon">♫</span>
+            <h3>Turn it<br />up loud</h3>
+            <p>Dark disco, guilty pleasures, and songs to raise the dead.</p>
+            <span class="card-tag">THE PARLOUR</span>
+          </article>
+          <article class="card movie-card">
+            <span class="number">03</span><span class="card-icon">◉</span>
+            <h3>Scream<br />together</h3>
+            <p>Horror classics on the projector. Bring a blanket—or a shield.</p>
+            <span class="card-tag">THE SCREENING ROOM</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="rules">
+        <div class="rules-art"><span>☾</span><i></i><b></b></div>
+        <div class="rules-copy">
+          <p class="eyebrow">A FEW HOUSE RULES</p>
+          <h2>COME <em>WEIRD.</em><br />LEAVE WILDER.</h2>
+          <ol>
+            <li><span>01</span> Costumes are strongly encouraged.</li>
+            <li><span>02</span> Bring a drink or a snack to share.</li>
+            <li><span>03</span> Don't summon anything you can't send home.</li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="rsvp" id="rsvp">
+        <p class="eyebrow">YOUR INVITATION AWAITS</p>
+        <h2>ARE YOU<br /><em>COMING?</em></h2>
+        <form class="rsvp-form" id="rsvp-form">
+          <label><span>YOUR NAME</span><input required type="text" placeholder="Type it here..." /></label>
+          <label><span>YOUR EMAIL</span><input required type="email" placeholder="So we can haunt you..." /></label>
+          <button class="button button-primary" type="submit">I'M IN <span>→</span></button>
+        </form>
+        <p class="form-note" id="form-note" aria-live="polite">You can still leave. For now.</p>
+      </section>
+    </main>
+    <footer><a class="brand" href="#top">AFTER <span>DARK</span></a><p>SEE YOU ON THE OTHER SIDE · 2026</p><a href="#top">BACK TO TOP ↑</a></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
